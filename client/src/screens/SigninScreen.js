@@ -70,7 +70,7 @@ function SigninScreen() {
           </div>
           <div className="mb-3">
             New Customer ? {""}{" "}
-            <Link to={`/signin?redirect=${redirect}`}>Create your account</Link>
+            <Link to={`/signup?redirect=${redirect}`}>Create your account</Link>
           </div>
         </Form>
       </Container>
